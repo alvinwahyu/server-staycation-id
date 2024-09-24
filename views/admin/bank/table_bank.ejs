@@ -27,7 +27,7 @@
                 <td><%= bank[i].nomorRekening %></td>
                 <td><%= bank[i].name %></td>
                 <td>
-                  <img src="http://localhost:3000/<%- bank[i].imageUrl %>" alt="imageUrl" height="50px" width="auto">
+                  <img src="https://server-staycation-ce2xws18s-alvins-projects-eee924cc.vercel.app/<%- bank[i].imageUrl %>" alt="imageUrl" height="50px" width="auto">
                 </td>
                 <td>
                   <form action="/admin/bank/<%= bank[i].id %>?_method=DELETE" method="POST">
